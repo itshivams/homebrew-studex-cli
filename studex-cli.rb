@@ -10,7 +10,7 @@ class StudexCli < Formula
   on_macos do
     on_intel do
       url "https://github.com/itshivams/Studex-CLI/releases/download/v1.0.0/studex-cli_Darwin_x86_64.tar.gz"
-      sha256 "7661911427291625c215f1ead8e60db06ac25b2926fcafe064fa6ff39d2a3d3c"
+      sha256 "fb41ba84b145a736779dd17b11c3483f3dcf0da98ccfe1b14625d9e1ff05d25a"
 
       def install
         bin.install "studex-cli"
@@ -18,7 +18,7 @@ class StudexCli < Formula
     end
     on_arm do
       url "https://github.com/itshivams/Studex-CLI/releases/download/v1.0.0/studex-cli_Darwin_arm64.tar.gz"
-      sha256 "dd52c65c07c434e45bc86dc61b28cd55b04175a64696d84ca8c18deb3583a897"
+      sha256 "5029f3d00d56f80f0c3dcdec7bcc13fa92a3904e500fd9065198edd6ae92d79d"
 
       def install
         bin.install "studex-cli"
@@ -30,7 +30,7 @@ class StudexCli < Formula
     on_intel do
       if Hardware::CPU.is_64_bit?
         url "https://github.com/itshivams/Studex-CLI/releases/download/v1.0.0/studex-cli_Linux_x86_64.tar.gz"
-        sha256 "4a1eb49950a766d6d7e238f08aef3fa3a854c99913b3c96b4e6ab4cf648d11ae"
+        sha256 "d4b3fadecb860ad11916ba15a4f17f886d23ca93ead216856865c72f6f435124"
 
         def install
           bin.install "studex-cli"
@@ -40,7 +40,7 @@ class StudexCli < Formula
     on_arm do
       if Hardware::CPU.is_64_bit?
         url "https://github.com/itshivams/Studex-CLI/releases/download/v1.0.0/studex-cli_Linux_arm64.tar.gz"
-        sha256 "bd109db4c544c9e354089a838854530a6645304890c05e0bfda2544f447aa8b3"
+        sha256 "96cfa493544066688dd47ef630c6f699fb1e567694741e835225d3c5221248cd"
 
         def install
           bin.install "studex-cli"
