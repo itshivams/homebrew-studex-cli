@@ -5,20 +5,20 @@
 class StudexCli < Formula
   desc "A command line interface for Studex Portal"
   homepage "https://github.com/itshivams/Studex-CLI"
-  version "1.0.1"
+  version "1.0.2"
 
   on_macos do
     on_intel do
-      url "https://github.com/itshivams/Studex-CLI/releases/download/v1.0.1/studex-cli_Darwin_x86_64.tar.gz"
-      sha256 "401aca5cbf417aace4ec466a2bdee87bcd694888864e00278aa3b1393fbbbad7"
+      url "https://github.com/itshivams/Studex-CLI/releases/download/v1.0.2/studex-cli_Darwin_x86_64.tar.gz"
+      sha256 "5113bea43473cfa856b44ed186b435306ad83fa976abbd61cdf450d39f324f85"
 
       def install
         bin.install "studex-cli"
       end
     end
     on_arm do
-      url "https://github.com/itshivams/Studex-CLI/releases/download/v1.0.1/studex-cli_Darwin_arm64.tar.gz"
-      sha256 "cdaa4b8fd3f24cfc2d69fef9046cb3d60962362cdb26cfd8fd28ec37d17c0541"
+      url "https://github.com/itshivams/Studex-CLI/releases/download/v1.0.2/studex-cli_Darwin_arm64.tar.gz"
+      sha256 "6b6b03a63faa01fb215e31dd65dc2a3a09b0d43e254889082d49a7348204abc3"
 
       def install
         bin.install "studex-cli"
@@ -29,8 +29,8 @@ class StudexCli < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/itshivams/Studex-CLI/releases/download/v1.0.1/studex-cli_Linux_x86_64.tar.gz"
-        sha256 "9d52027a0b29af6041f421ef70508249975f8dc4e50192741a488dad36abb0bd"
+        url "https://github.com/itshivams/Studex-CLI/releases/download/v1.0.2/studex-cli_Linux_x86_64.tar.gz"
+        sha256 "dd4382ac198a47a84bee26edc5937aaf68cbf668b45b4f970cf8fe524360266d"
 
         def install
           bin.install "studex-cli"
@@ -39,8 +39,8 @@ class StudexCli < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/itshivams/Studex-CLI/releases/download/v1.0.1/studex-cli_Linux_arm64.tar.gz"
-        sha256 "8878c8de8b20e6a1630a5c94d519d8ce5b96f0760f33400bc44f54b9fe3718f3"
+        url "https://github.com/itshivams/Studex-CLI/releases/download/v1.0.2/studex-cli_Linux_arm64.tar.gz"
+        sha256 "878cf4b288fed9ccbe6912d2e03dfdf9eb4eac4224ff02a3c80beb31dc53345c"
 
         def install
           bin.install "studex-cli"
